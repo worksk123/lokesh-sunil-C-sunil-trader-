@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>TRADEWITH_SUNIL | शेयर बाज़ार की शिक्षा · Stock Market Education</title>
+<meta name="description" content="शेयर बाज़ार सीखिए हिंदी और English में: चार्ट, रिस्क मैनेजमेंट और ट्रेडिंग अनुशासन। Free Telegram community.">
+<meta name="theme-color" content="#16130f">
+
+<!-- ============================================================
+     EDIT THESE SETTINGS (website owner only)
+     ============================================================ -->
+<script>
+const CONFIG = {
+  BRAND_NAME: "TRADEWITH_SUNIL",                    // <-- PAGE / BRAND NAME
+  LOGO_IMAGE: "sunil.jfif",                         // <-- REPLACE LOGO: keep your photo named sunil.jfif in the same folder as this file
+  TELEGRAM_URL: "https://t.me/+c14Nqfq5dKk5MTg1",   // <-- TELEGRAM LINK
+  META_PIXEL_ID: "2966106237059029"                 // <-- META PIXEL ID
+};
+</script>
+
+<!-- ============ META PIXEL BASE CODE (PageView only) ============ -->
+<script>
+if (CONFIG.META_PIXEL_ID && CONFIG.META_PIXEL_ID !== "YOUR_META_PIXEL_ID") {
+  !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', CONFIG.META_PIXEL_ID);
+  fbq('track', 'PageView');
+}
+</script>
+
+<style>
+:root{
+  --coal:#16130f; --coal2:#211c16; --cream:#fbf3e4; --saffron:#ff8a1f; --saffron2:#ffb15c; --brick:#d9480f;
+  --line:#3a3228; --muted:#bfb29c;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
+body{font-family:"Noto Sans Devanagari","Mukta","Nirmala UI","Segoe UI",system-ui,-apple-system,Roboto,Arial,sans-serif;
+  background:var(--coal);color:var(--cream);line-height:1.65;overflow-x:hidden;padding:env(safe-area-inset-top) 0 env(safe-area-inset-bottom)}
+main{max-width:640px;margin:0 auto;padding-bottom:36px}
+
+/* ---------- Diagonal hero ---------- */
+.hero{position:relative;padding:34px 20px 70px;text-align:left;
+  background:linear-gradient(135deg,var(--brick),var(--saffron) 60%,var(--saffron2));color:#1a0f05;
+  clip-path:polygon(0 0,100% 0,100% calc(100% - 38px),0 100%)}
+.hero::before{content:"";position:absolute;right:-60px;top:-60px;width:220px;height:220px;border-radius:50%;border:30px solid rgba(255,255,255,.14)}
+.top{display:flex;align-items:center;gap:16px;position:relative}
+
+/* ---------- Round logo ---------- */
+.logo{flex:none;width:104px;height:104px;border-radius:50%;padding:4px;background:var(--coal);box-shadow:0 0 0 3px #fff3,0 12px 28px rgba(0,0,0,.35)}
+.logo-inner{position:relative;width:100%;height:100%;border-radius:50%;overflow:hidden;background:var(--coal2);display:flex;align-items:center;justify-content:center}
+/* REPLACE LOGO IMAGE HERE: just keep your picture saved as sunil.jfif */
+.logo-inner img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 20%;display:block}
+.logo-fallback{font-weight:800;font-size:38px;color:var(--saffron)}
+.name small{display:block;font-size:12px;letter-spacing:2.4px;text-transform:uppercase;font-weight:800;opacity:.75}
+.name b{display:block;font-size:clamp(21px,6.4vw,30px);line-height:1.15;font-weight:800;word-break:break-word;letter-spacing:.3px}
+
+h1{position:relative;margin-top:26px;font-size:clamp(26px,7.6vw,38px);line-height:1.3;font-weight:800}
+.en{position:relative;margin-top:8px;font-size:clamp(15px,4.3vw,18px);font-weight:600;opacity:.82}
+
+/* ---------- CTA ---------- */
+.cta-zone{padding:0 18px;margin-top:-22px;position:relative;z-index:2;text-align:center}
+.cta{display:flex;align-items:center;justify-content:center;gap:12px;width:100%;max-width:420px;min-height:64px;margin:0 auto;padding:14px 20px;
+  border-radius:14px;background:var(--cream);color:#1a0f05;text-decoration:none;font:800 16.5px/1.2 system-ui,Arial,sans-serif;letter-spacing:.6px;
+  border:3px solid var(--saffron);box-shadow:0 0 0 0 rgba(255,138,31,.6),0 12px 26px rgba(0,0,0,.45);
+  animation:pulse 2.6s infinite;transition:transform .2s,background .2s;-webkit-tap-highlight-color:transparent}
+.cta svg{width:28px;height:28px;flex:none}
+.cta:hover{background:#fff;transform:translateY(-2px)}
+.cta:active{transform:scale(.985)}
+.cta:focus-visible{outline:3px solid #fff;outline-offset:3px}
+@keyframes pulse{0%{box-shadow:0 0 0 0 rgba(255,138,31,.55),0 12px 26px rgba(0,0,0,.45)}70%,100%{box-shadow:0 0 0 14px rgba(255,138,31,0),0 12px 26px rgba(0,0,0,.45)}}
+.free{font-size:13px;color:var(--muted);margin-top:12px}
+
+/* ---------- Content ---------- */
+section{margin:34px 18px 0}
+.cap{display:flex;align-items:center;gap:10px;font-size:12px;letter-spacing:2.4px;text-transform:uppercase;color:var(--saffron);font-weight:800;margin-bottom:12px}
+.cap::before{content:"";width:26px;height:3px;background:var(--saffron);border-radius:2px}
+.list{display:grid;gap:10px}
+.row{display:grid;grid-template-columns:48px 1fr;gap:14px;align-items:start;background:var(--coal2);border:1px solid var(--line);
+  border-radius:4px 20px 4px 20px;padding:16px}
+.row i{font-style:normal;width:48px;height:48px;border-radius:50%;background:var(--saffron);color:#1a0f05;display:flex;align-items:center;justify-content:center;font-size:22px}
+.row h3{font-size:17px;line-height:1.3}
+.row .en2{display:block;font-size:13px;color:var(--saffron2);font-weight:600;margin:1px 0 4px}
+.row p{font-size:14.5px;color:var(--muted)}
+.tags{display:flex;flex-wrap:wrap;gap:8px}
+.tags span{padding:8px 14px;border:1.5px solid var(--saffron);border-radius:99px;font-size:14px;font-weight:600;color:var(--saffron2)}
+.note{margin:32px 18px 0;padding:16px 18px;border-radius:14px;background:#2a2218;border:1px dashed #6b5a3f;font-size:13px;color:var(--muted)}
+.note strong{color:var(--saffron2)}
+.note p+p{margin-top:8px}
+footer{text-align:center;font-size:12.5px;color:var(--muted);margin-top:22px;padding:0 18px}
+
+@media (min-width:640px){ main{padding-top:24px} .hero{border-radius:26px 26px 0 0} }
+@media (prefers-reduced-motion:reduce){ .cta{animation:none} *{transition:none!important;scroll-behavior:auto!important} }
+</style>
+</head>
+<body>
+<main>
+  <header class="hero">
+    <div class="top">
+      <!-- REPLACE LOGO IMAGE HERE (file: sunil.jfif, set in CONFIG above) -->
+      <div class="logo"><div class="logo-inner">
+        <span class="logo-fallback" aria-hidden="true">S</span>
+        <img id="logoImg" alt="Logo" width="96" height="96">
+      </div></div>
+      <div class="name"><small>शेयर बाज़ार शिक्षा</small><b data-brand>TRADEWITH_SUNIL</b></div>
+    </div>
+    <h1>पहले समझिए, फिर ट्रेड कीजिए।</h1>
+    <p class="en">Understand first. Then trade with discipline.</p>
+  </header>
+
+  <div class="cta-zone">
+    <!-- ============ TELEGRAM CTA: fires Meta Pixel "Subscribe" on click only ============ -->
+    <a id="tgBtn" class="cta" href="https://t.me/+c14Nqfq5dKk5MTg1" target="_blank" rel="noopener noreferrer">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="12" fill="#1a0f05"/><path fill="#ffb15c" d="M17.6 7.3 5.9 11.8c-.8.3-.8.8-.1 1l3 .9 1.1 3.4c.1.4.3.5.6.5s.4-.1.6-.3l1.5-1.4 3 2.2c.5.3 1 .1 1.1-.5l2-9.3c.2-.8-.3-1.2-1.1-.9zm-1.4 2-5.6 5-.2 2.3-.9-2.9 6.2-4.1c.3-.2.5-.1.5.1z"/></svg>
+      <span>JOIN FREE TELGRAM CHANNEL</span>
+    </a>
+    <p class="free">मुफ़्त · Free · एक टैप में Telegram खुलेगा</p>
+  </div>
+
+  <section aria-labelledby="learn">
+    <p class="cap" id="learn">चैनल में क्या मिलेगा · What you get</p>
+    <div class="list">
+      <article class="row"><i aria-hidden="true">📈</i><div><h3>चार्ट की बुनियादी समझ</h3><span class="en2">Chart basics</span><p>कैंडल, ट्रेंड, सपोर्ट और रेसिस्टेंस को आसान भाषा में सीखिए।</p></div></article>
+      <article class="row"><i aria-hidden="true">🛡️</i><div><h3>रिस्क मैनेजमेंट</h3><span class="en2">Risk management</span><p>स्टॉपलॉस और पोज़िशन साइज़ जैसे विषय, ताकि पूँजी की सुरक्षा पहले रहे।</p></div></article>
+      <article class="row"><i aria-hidden="true">🧘</i><div><h3>धैर्य और अनुशासन</h3><span class="en2">Patience &amp; discipline</span><p>जल्दबाज़ी और भावनाओं से बचकर योजना के साथ चलने की आदतें।</p></div></article>
+      <article class="row"><i aria-hidden="true">📚</i><div><h3>मार्केट की जानकारी</h3><span class="en2">Market knowledge</span><p>शेयर बाज़ार के शब्द, सेशन और ख़बरें समझने में मदद।</p></div></article>
+    </div>
+  </section>
+
+  <section aria-labelledby="topics">
+    <p class="cap" id="topics">विषय · Topics</p>
+    <div class="tags">
+      <span>Beginner basics</span><span>Technical analysis</span><span>Risk management</span><span>Trading psychology</span><span>ट्रेड जर्नल</span>
+    </div>
+  </section>
+
+  <!-- ============ FINANCIAL DISCLAIMER (edit text if needed) ============ -->
+  <aside class="note" aria-label="Disclaimer">
+    <p><strong>सूचना:</strong> इस पेज और Telegram चैनल की सारी जानकारी केवल शैक्षणिक और सूचनात्मक उद्देश्य के लिए है। यह व्यक्तिगत वित्तीय या निवेश सलाह नहीं है। शेयर बाज़ार में निवेश और ट्रेडिंग में जोखिम होता है, आपको नुकसान हो सकता है। किसी लाभ की कोई गारंटी नहीं है। कोई भी निर्णय लेने से पहले अपना शोध करें या योग्य वित्तीय सलाहकार से परामर्श लें।</p>
+    <p><strong>Disclaimer:</strong> Content is for educational and informational purposes only and is not personalized financial advice. Investing and trading involve risk, including loss of capital. No profits are guaranteed.</p>
+  </aside>
+
+  <footer>© <span id="yr"></span> <span data-brand>TRADEWITH_SUNIL</span></footer>
+</main>
+
+<script>
+(function(){
+  var btn = document.getElementById('tgBtn');
+  btn.href = CONFIG.TELEGRAM_URL;
+  document.querySelectorAll('[data-brand]').forEach(function(el){ el.textContent = CONFIG.BRAND_NAME; });
+  document.getElementById('yr').textContent = new Date().getFullYear();
+
+  // Logo with graceful fallback (shows first letter if image is missing)
+  var img = document.getElementById('logoImg');
+  document.querySelector('.logo-fallback').textContent = (CONFIG.BRAND_NAME || 'S').charAt(0).toUpperCase();
+  img.onerror = function(){ img.style.display = 'none'; };
+  img.src = CONFIG.LOGO_IMAGE;
+
+  // ===== META PIXEL "Subscribe" EVENT: fires only on a real click of the Telegram button =====
+  btn.addEventListener('click', function(){
+    try {
+      if (typeof window.fbq === 'function') { fbq('track', 'Subscribe'); }
+    } catch (e) { /* never block Telegram navigation */ }
+    // No preventDefault: the link opens Telegram directly.
+  });
+})();
+</script>
+</body>
+</html>
